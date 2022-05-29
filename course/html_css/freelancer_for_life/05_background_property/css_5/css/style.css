@@ -1,0 +1,110 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: #e8e8e8 url('../img/Ellipse_1_copy.png') 50% no-repeat;
+	color: #273d46;
+}
+.root {
+	display:flex;
+	justify-content:center;
+}
+.container{
+	max-width: 841px;
+	margin: 140px 310px 140px 290px;
+}
+.title{
+	opacity: 0.6;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	margin-bottom: 28px;
+}
+.slogan{
+	width: 721px;
+	font-family: "Times New Roman PSMT";
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 58px 77px 58px;
+}
+.image{
+	border: 10px solid white;
+	margin-bottom: 97px;
+}
+.description__container{
+	margin: 0 50px 0 35px;
+}
+.text__description{
+	width: 736px;
+	opacity: 0.8;
+	font-family: "Times New Roman PSMT";
+	font-size: 24px;
+	line-height: 40px;
+	margin-bottom: 64px;
+}
+.list{
+	margin: 0 0 59px 0;
+}
+.list li{
+	font-size: 20px;
+	line-height: 36px;
+	margin: 0 0 15px 0;
+	background: url('../img/icons/li.svg') left 5px/25px 19px no-repeat;
+	padding: 0px 0px 0px 35px;
+}
+li.shadow {
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+li.color_italic {
+	font-style: italic;
+	color: #80b7b3;
+}
+li.bold {
+	font-weight: bold;
+}
+li.opacity_through span {
+	opacity: 0.3;
+	text-decoration: line-through;
+}
+.button__description{
+	width: 199px;
+	height: 44px;
+	background-color: #80b7b3;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	border-radius: 20px;
+	margin: 2px 0;
+}
+.button__text{
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 14px;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	margin-right: 10px;
+}
+.button__icon{
+	opacity: 0.8;
+	padding: 12px 0 12px 0;
+}
+
+
